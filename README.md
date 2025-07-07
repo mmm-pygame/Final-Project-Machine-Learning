@@ -5,5 +5,6 @@ BÀI THỰC HÀNH AI MACHINE LEARNING
 Danh sách folder:
 - ../data : chứa dataset tập train và tập test
   + ../data/raw : chứa dataset chưa qua tiền xử lý
-  + ../data/processed : chứa dataset đã qua xử lý sơ bộ
-- ../notebooks : chứa các file có dạng *.ipynb gồm EDA,
+  + ../data/splited : chứa tập train và test chia sẵn
+  + ../data/processed : chứa dataset train đã qua xử lý sơ bộ
+- ../notebooks : chứa các file có dạng *.ipynb gồm EDA,... là từng bước một trong pipeline
